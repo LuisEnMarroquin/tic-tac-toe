@@ -1,3 +1,86 @@
+# Tic Tac Toe
+
+A modern, interactive Tic Tac Toe game built with Next.js 15, React 19, and TypeScript. This web application features a clean, responsive design using Tailwind CSS and provides a smooth gaming experience with real-time game status updates.
+
+Features:
+
+- Interactive 3x3 game board with hover effects
+- Real-time game status showing current player and winner
+- Win detection for all possible winning combinations
+- Draw detection when the board is full
+- Reset functionality to start a new game
+- Responsive design that works on all screen sizes
+- TypeScript support for type safety and better development experience
+
+Tech Stack:
+
+- Next.js 15 - React framework with App Router
+- React 19 - Modern React with latest features
+- TypeScript - Type-safe JavaScript
+- Tailwind CSS - Utility-first CSS framework
+- ESLint - Code linting and formatting
+
+Getting Started:
+
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:3000 to play the game in your browser.
+
+This description highlights the key features, technology stack, and provides basic setup instructions for anyone who wants to run or contribute to your project.
+
+## Created with
+
+```bash
+npx create-next-app@latest
+Need to install the following packages:
+create-next-app@15.4.4
+Ok to proceed? (y) y
+
+✔ What is your project named? … tic-tac-toe
+✔ Would you like to use TypeScript? … No / Yes # Yes
+✔ Would you like to use ESLint? … No / Yes # Yes
+✔ Would you like to use Tailwind CSS? … No / Yes # Yes
+✔ Would you like your code inside a `src/` directory? … No / Yes # Yes
+✔ Would you like to use App Router? (recommended) … No / Yes # Yes
+✔ Would you like to use Turbopack for `next dev`? … No / Yes # Yes
+✔ Would you like to customize the import alias (`@/*` by default)? … No / Yes # No
+Creating a new Next.js app in /Users/Enrique/Music/tic-tac-toe.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+- @tailwindcss/postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+- @eslint/eslintrc
+
+
+added 336 packages, and audited 337 packages in 18s
+
+found 0 vulnerabilities
+Initialized a git repository.
+
+Success! Created tic-tac-toe at /Users/Enrique/Music/tic-tac-toe
+```
+
+# Original README.md
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
